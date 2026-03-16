@@ -22,26 +22,15 @@ Instead of downloading images for every row up front, the app only starts work f
 
 ## Demo
 
-Add screenshots or recordings under `docs/media/` with these suggested filenames:
-
-- `list.png`
-- `memory-stats.png`
-- `scrolling.gif`
-- `demo.mov`
-- `social-preview.png`
-
-Suggested GitHub media section:
-
 <p align="center">
-  <img src="docs/media/list.png" alt="SwiftUI async image list" width="45%" />
-  <img src="docs/media/memory-stats.png" alt="Cache and memory behavior" width="45%" />
+  <img src="docs/media/list.png" alt="SwiftUI async image list" width="48%" />
 </p>
 
 <p align="center">
-  <img src="docs/media/scrolling.gif" alt="Scrolling demo" width="80%" />
+  <img src="docs/media/scrolling.gif" alt="Scrolling demo showing visible-row loading, cancellation, and reuse" width="82%" />
 </p>
 
-Full video walkthrough: [Watch the demo](docs/media/demo.mov)
+The screenshot shows the app’s SwiftUI list UI, and the GIF demonstrates the key runtime behavior: visible-row loading, cancellation of off-screen work, and cache reuse while scrolling.
 
 ## Why this repo is useful
 
